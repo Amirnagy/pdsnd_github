@@ -46,3 +46,20 @@ The code helps user to tell about bike share use in _Chicago_, _New York City_ a
   - counts of each user type
   - counts of each gender (only available for _NYC_ and _Chicago_)
   - earliest, most recent, most common year of birth (only available for _NYC_ and _Chicago_)
+
+
+
+### **The Datasets:**
+Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+
+* Start Time (e.g., 2017-01-01 00:07:57)
+* End Time (e.g., 2017-01-01 00:20:53)
+* Trip Duration (in seconds - e.g., 776)
+* Start Station (e.g., Broadway & Barry Ave)
+* End Station (e.g., Sedgwick St & North Ave)
+* User Type (Subscriber or Customer)
+
+The _Chicago_ and _New York City_ files also have the following two columns:
+
+* Gender
+* Birth Year
